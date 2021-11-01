@@ -33,3 +33,28 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 850px) {
+     .sl{
+        width: 60%;
+        height: 20vh;
+     }
+
+     .sl-title{
+         font-size: 20px;
+         text-align: center;
+         margin-left: 30px;
+     }
+
+    .sl-desc{
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .sl-texts .line{
+        margin-left: 50px;
+       
+        
+    }
+
+} 

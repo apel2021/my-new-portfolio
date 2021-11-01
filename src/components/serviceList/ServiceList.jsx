@@ -5,7 +5,7 @@ import { service } from "../../data";
 
 const ServiceList = () => {
     return (
-        <div className="sl">
+        <div className="sl" id="services">
             <div className="sl-texts">
                 <h1 className="sl-title">My services</h1>
                 <div className="line">What I provide</div>

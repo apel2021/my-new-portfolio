@@ -1,18 +1,24 @@
 import "./intro.css";
 import Me from "../../img/2018-06-02-18-07-12-110 (1).jpg";
+import {Link} from "react-scroll";
 
 const Intro = () => {
     return (
-        <div className="i">
+        <div className="i" id="home">
             <div className="i-left">
                 <div className="navbar">
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Skills</li>
-                        <li>Contact</li>
+                        
+                        
+                        <Link to="home" smooth="true"> <li>Home</li></Link>
+                        <Link to="about" smooth="true"><li>About</li></Link>
+                        <Link to="services" smooth="true"><li>Services</li></Link>
+                        <Link to="skills" smooth="true"><li>Skills</li></Link>
+                        <Link to="contact" smooth="true"><li>Contacts</li></Link>
+                    
                     </ul>
+        
+
                 </div>
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hello, My name is </h2>
@@ -30,7 +36,7 @@ const Intro = () => {
                     </div>
 
                     <p className="i-desc">
-                            I am a software engineer. I work in a company as an It support specialist. I also design and develop for customers of all sizes, specializing in creating modern websites, web services.
+                            I am a software engineer. I work in a company as an It support specialist. I also design and develop for customers of all sizes, specializing in creating modern websites, web services and also database management.
                     </p>
                     
 

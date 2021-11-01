@@ -4,6 +4,13 @@ import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import { useRef, useState } from "react";
 import emailjs from 'emailjs-com';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    
+    faFacebook,
+    faLinkedin,
+    faInstagram
+  } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
 
@@ -35,7 +42,7 @@ const Contact = () => {
 
     }
     return (
-        <div>
+        <div id="contact">
             <div className="c">
                 <div className="c-bg"></div>
                 <div className="c-wrapper">
@@ -44,17 +51,38 @@ const Contact = () => {
                         <div className="c-info">
                             <div className="c-info-item">
                                 <img src={Phone} alt="" className="c-icon" />
-                                +8801303451038
+                                <p>+8801303451038</p>
                             </div>
                            
                             <div className="c-info-item">
                                 <img src={Email} alt="" className="c-icon" />
-                                apelmahmud1151@gmail.com
+                                <p>apelmahmud1151@gmail.com</p>
                             </div>
 
                             <div className="c-info-item">
                                 <img src={Address} alt="" className="c-icon" />
-                                220 maltinogor street, Bogura, Bangladesh
+                                <p>220 maltinogor street, Bogura, Bangladesh</p>
+                            </div>
+                            <h4 className="s-title">Here is my social link. You can visit and see about myself</h4><br />
+                            <div className="s-link">
+                                
+                                <a href="https://www.facebook.com/apel.mahmud.1971/"
+                                   target="_blank" rel="noreferrer" >
+                                    <FontAwesomeIcon className="facebook" icon={faFacebook} size="2x" />
+                                </a>
+
+                                <a href="https://www.instagram.com/apel1151/"
+                                    target="_blank" rel="noreferrer" >
+                                    <FontAwesomeIcon className="instagram" icon={faInstagram} size="2x" />
+                                </a>
+
+
+                                <a href="https://www.linkedin.com/in/apel-mahmud1151/"
+                                    target="_blank" rel="noreferrer">
+                                    <FontAwesomeIcon className="linkedin" icon={faLinkedin} size="2x" />
+                                </a>
+
+
                             </div>
 
 

@@ -26,11 +26,11 @@
 }
 
 .s-img{
-    width: 100%;
-    height: 40vh;
-    transition: all 5s ease;
+    width: 80%;
+    height: 35vh;
+    transition: all 3s ease;
 }
 
 .s:hover .s-img {
-    transform: translateY(-50%);
+    transform: scale(1.5);
 }

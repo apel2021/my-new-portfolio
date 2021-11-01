@@ -40,10 +40,12 @@
     margin: 50px 0px;
     font-weight: 300;
     width: 50%;
+    
 }
 .c-icon{
     height: 30px;
     width: 30px;
+    margin-right: 10px;
 }
 
 .c-desc{
@@ -80,3 +82,78 @@ button{
     border-radius: 7px;
 }
 
+
+.s-link{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+
+  
+ .s-link a .facebook{
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+  }
+  
+ .s-link a .linkedin{
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+ }
+  
+  .s-link a .instagram {
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  .s-title{
+      display: flex;
+      flex-direction: column;
+      color: white;
+  }
+
+
+  @media screen and (max-width:850px) {
+           .c{
+               display: flex;
+               width: 100%;
+               
+           } 
+
+           .c-wrapper{
+               flex-direction: column;
+               padding: 10px;
+              
+           }
+
+           .c-title{
+               font-size: 20px;
+           }
+
+           .c-desc{
+               display: none;
+           }
+
+           .c-info-item{
+               align-items: center;
+               width: 50%;
+               margin: 5px;
+               margin-left: 30px;
+           }
+
+           .c-right{
+               margin-left: 30px;
+           }
+
+           .c-title{
+               margin-left: 30px;
+           }
+           .s-title{
+               margin-left: 30px;
+           }
+
+  }

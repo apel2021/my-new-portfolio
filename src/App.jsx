@@ -7,6 +7,9 @@ import Skill from "./components/skills/Skill";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 
+// import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
+
 const App = () => {
 
   const theme = useContext(ThemeContext);
@@ -14,21 +17,25 @@ const App = () => {
 
   return (
      
+
     <div style={{backgroundColor:darkMode? "#222": "white",
     
          color: darkMode && "white"
           }}
           
         > 
-
+    
       <Toggle></Toggle>
       <Intro></Intro>
-      <About></About>
+      <About></About> 
       <ServiceList></ServiceList>
       <Skill></Skill>
-      <Contact></Contact>
+      <Contact></Contact> 
+
+       
     </div>
-      
+    
+    
   );
   
   

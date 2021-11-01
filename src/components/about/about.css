@@ -40,13 +40,61 @@
     object-fit: cover;
 }
 
-
-.r-button{
-    /* font-weight: 600; */
+ 
+/* .a-right a{
+    
     font-size: 20px;
     width: 150px;
     padding: 10px;
     margin-top: 15px;
     height: 50px;
     
+}  */
+
+.a .a-right a{
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    height: 40px;
+    background-color: #59b256;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width: 850px) {
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .a-left{
+        width: 100%;
+    }
+    .a-card{
+        height: 30vh;
+        
+    }
+
+    .a-card.bg {
+        display: none;
+    }
+
+    .a-right{
+        padding: 20px;
+    }
+
+    .a .a-right a{
+        margin-left: 150px;
+    }
+
 }

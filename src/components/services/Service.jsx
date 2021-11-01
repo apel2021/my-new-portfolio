@@ -3,7 +3,7 @@ import "./service.css";
 const Service = ({img, link}) => {
     return (
         <div className="s">
-                <div className="s-browser">
+               <div className="s-browser">
                     <div className="s-circle"></div>
                     <div className="s-circle"></div>
                     <div className="s-circle"></div>
